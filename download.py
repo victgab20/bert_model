@@ -13,5 +13,5 @@ gdown.download(url1, output1, quiet=False)
 
 file_id2 = "1aZotbHRKlKGT9TAPuDBEJLxnOBj9SnLI"
 url2 = f"https://drive.google.com/uc?id={file_id2}"
-output2 = "dataset/balanced_test_filmes.csv"
+output2 = "dataset/balanced_dev_filmes.csv"
 gdown.download(url2, output2, quiet=False)
